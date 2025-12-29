@@ -1,69 +1,49 @@
 💸 IncentiveSwitchSystem — Frontend Demo 🔁
 
-A Classic ASP + HTML/CSS frontend prototype that demonstrates how an organization can allow employees to choose between Salary Day and Incentive Day preferences.
-Role-based dashboards simulate how Payroll and IT teams may review these selections — using dummy data only.
+A Classic ASP + HTML/CSS frontend prototype that simulates employee selection between Salary Day and Incentive Day, with role-based dashboards for Payroll and IT.
+Frontend-only · Dummy data · No backend
 
-🌟 Project Overview
+🔍 Overview
 
-IncentiveSwitchSystem is a frontend-only proof of concept created to demonstrate workflow design, role-based page separation, and UI structure for organizations that rely on Classic ASP technology.
+A frontend proof of concept built for organizations that rely on Classic ASP, focusing on:
 
-There is:
+Role-based UI flow
 
-No real backend
+Page structure & navigation
 
-No database integration
+Workflow visualization
 
-Only simulated data and logic
+No backend. No database. Only simulated logic.
 
-The focus of this project is on frontend structure, navigation flow, and clarity of design.
-
-🧱 Technology Stack
+🧱 Tech Stack
 
 Classic ASP (.asp)
-Used for page structure and simple logic handling
 
 HTML5 & CSS3
-For layout, styling, and UI presentation
 
-IIS-compatible setup
-Designed to run inside a wwwroot-style directory
+IIS (wwwroot structure)
 
 Visual Studio Code
-Used as the development environment
 
 📸 Screenshots
 
 👉 View all screenshots
 
-Available Screens
+(Login · Registration · Employee · Payroll · IT dashboards)
 
-01_login_page.png — Login Page
+🎯 Purpose
 
-02_Registration_page.png — Registration Page
+Developed during an internship to provide the organization with a ready-to-use frontend structure that fits their existing ASP-based systems.
 
-03_Employee_Dashboard.png — Employee Dashboard
+Serves as:
 
-04_Payroll_Dashboard.png — Payroll Dashboard
+A UI foundation for future backend integration
 
-05_IT_Dasboard.png — IT Dashboard
+A visual reference for internal teams
 
-🎯 Purpose of This Project
-
-This project was developed during an internship to provide the organization with a ready-to-use frontend structure built using Classic ASP, in alignment with their existing technology dependency.
-
-The objective was to:
-
-Provide a clear UI foundation for future development
-
-Help teams visualize workflows using an ASP-based architecture
-
-Allow future backend integration without changing legacy systems
-
-Serve as a reference frontend prototype for internal teams
-
-This approach bridges modern UI expectations with continued reliance on ASP technology.
+A bridge between modern UI expectations and legacy ASP technology
 
 ⚠️ Disclaimer
 
-This is a frontend-only demo project.
-All data used is mock/dummy data, and no real authentication, backend processing, or database connectivity is implemented.
+Frontend demo only.
+All data and logic are mock/dummy.
