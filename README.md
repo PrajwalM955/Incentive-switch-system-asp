@@ -1,49 +1,61 @@
-💸 IncentiveSwitchSystem — Frontend Demo 🔁
+# 💸 IncentiveSwitchSystem  
+### Frontend Demo (Classic ASP)
 
-A Classic ASP + HTML/CSS frontend prototype that simulates employee selection between Salary Day and Incentive Day, with role-based dashboards for Payroll and IT.
-Frontend-only · Dummy data · No backend
+A **Classic ASP + HTML/CSS** frontend prototype that simulates employee selection between **Salary Day** and **Incentive Day**, with role-based dashboards for **Payroll** and **IT**.
 
-🔍 Overview
+**Frontend-only · Dummy data · No backend**
 
-A frontend proof of concept built for organizations that rely on Classic ASP, focusing on:
+---
 
-Role-based UI flow
+## 📌 Overview
 
-Page structure & navigation
+**IncentiveSwitchSystem** is a **frontend proof of concept** built for organizations that rely on **Classic ASP**.
 
-Workflow visualization
+It focuses on:
+- Role-based UI flow  
+- Page structure and navigation  
+- Workflow visualization  
 
-No backend. No database. Only simulated logic.
+There is **no backend**, **no database**, and **only simulated logic**.
 
-🧱 Tech Stack
+---
 
-Classic ASP (.asp)
+## 🧱 Technology Stack
 
-HTML5 & CSS3
+- **Classic ASP (`.asp`)** — page structure and basic logic  
+- **HTML5 & CSS3** — layout and UI styling  
+- **IIS** — `wwwroot`-style deployment  
+- **Visual Studio Code** — development environment  
 
-IIS (wwwroot structure)
+---
 
-Visual Studio Code
+## 📸 Screenshots
 
-📸 Screenshots
+![Login Page Preview](Images_of_Project/01_login_page.png)
 
-👉 View all screenshots
+👉 **[View all screenshots](./Images_of_Project)**
 
-(Login · Registration · Employee · Payroll · IT dashboards)
+Includes:
+- Login page  
+- Registration page  
+- Employee dashboard  
+- Payroll dashboard  
+- IT dashboard  
 
-🎯 Purpose
+---
 
-Developed during an internship to provide the organization with a ready-to-use frontend structure that fits their existing ASP-based systems.
+## 🎯 Project Purpose
 
-Serves as:
+This project was developed during an **internship** to provide the organization with a **ready-to-use frontend structure** aligned with their **existing Classic ASP technology stack**.
 
-A UI foundation for future backend integration
+It serves as:
+- A UI foundation for future backend integration  
+- A visual reference for internal teams  
+- A bridge between modern UI expectations and legacy ASP systems  
 
-A visual reference for internal teams
+---
 
-A bridge between modern UI expectations and legacy ASP technology
+## ⚠️ Disclaimer
 
-⚠️ Disclaimer
-
-Frontend demo only.
-All data and logic are mock/dummy.
+This is a **frontend-only demo project**.  
+All data is **mock/dummy**, and no real authentication, backend processing, or database connectivity is implemented.
