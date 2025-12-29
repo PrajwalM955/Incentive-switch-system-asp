@@ -31,9 +31,9 @@ There is **no backend**, **no database**, and **only simulated logic**.
 
 ## 📸 Screenshots
 
-![Login Page Preview](Images_of_Project/01_login_page.png)
+![Login Page Preview](IncentiveSwitchSystem/Images_of_Project/01_login_page.png)
 
-👉 **[View all screenshots](./Images_of_Project)**
+👉 **[View all screenshots](./IncentiveSwitchSystem/Images_of_Project)**
 
 Includes:
 - Login page  
