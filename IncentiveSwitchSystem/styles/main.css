@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.site-header {
+    background: #207cca;
+    color: #fff;
+    padding: 18px 30px;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header .site-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.site-header .user-info {
+    font-size: 1em;
+}
+.site-header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.site-header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.login-box {
+    background: white;
+    padding: 30px 25px;
+    width: 320px;
+    margin: 100px auto;
+    box-shadow: 0 0 16px rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 100%;
+    padding: 10px 9px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button, .submit-btn {
+    padding: 10px 20px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.2s;
+}
+input[type="submit"]:hover, button:hover, .submit-btn:hover {
+    background: #207cca;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.dashboard-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.request-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.note {
+    color: #d9534f;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #207cca;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    text-align: right;
+    padding: 10px 20px;
+    background: #ddd;
+}
+
+.logout-link {
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 10px;
+    }
+    .site-header .nav-links a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .dashboard-box, .login-box {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+}
